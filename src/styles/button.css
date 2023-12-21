@@ -1,0 +1,12 @@
+a.button{
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 10px 25px;
+    background-color: #FAC91D;
+    border-radius: 15px;
+    text-decoration: none;
+    filter: drop-shadow(0 0 25px rgba(250, 201, 29, 0.25));
+}

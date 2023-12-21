@@ -1,0 +1,39 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4em;
+    height: 10vh;
+}
+
+nav .nav-name{
+    display: flex;
+    align-items: center;
+}
+
+nav .nav-name ul{
+    display: flex;
+    gap: 5vw;
+    margin: 0;
+    list-style: none;
+}
+
+nav .nav-name a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2vw;
+}
+
+nav .nav-logo a{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0;
+    font-size: 1.8vw;
+}
+
+nav .nav-logo{
+    display: flex;
+    align-items: center;
+}
