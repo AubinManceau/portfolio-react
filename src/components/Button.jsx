@@ -8,7 +8,9 @@ function Button({name, link}){
       };
     
     return(
-        <a className="button" href={link}>{name}</a>
+        <div className="container-button">
+            <a className="button" href={link}>{name}</a>
+        </div>
     )
 }
 

@@ -1,0 +1,29 @@
+footer{
+    height: 11.5vh;
+    background-color: #FAC91D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+}
+
+footer .footer-logo a{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0;
+    font-size: 1.8vw;
+}
+
+footer .footer-logo{
+    display: flex;
+    align-items: center;
+}
+
+footer p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3vw;
+    margin: 0;
+}

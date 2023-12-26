@@ -1,0 +1,31 @@
+.apropos{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15vw;
+}
+
+.apropos img{
+    width: 28vw;
+    height: 21vw;
+    box-shadow: -25px -25px 0 #FAC91D;
+}
+
+.content{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.content p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 1.2vw 0;
+    font-size: 1vw;
+    line-height: 1.4em;
+}
+
+.content p:first-child{
+    margin: 0;
+}

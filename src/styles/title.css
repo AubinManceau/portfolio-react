@@ -1,0 +1,12 @@
+.title h2{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.8vw;
+    border-bottom: .3vw solid #FAC91D;
+    font-weight: 400;
+}
+
+.title{
+    display: flex;
+}
