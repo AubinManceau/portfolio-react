@@ -1,0 +1,25 @@
+.containerSkills{
+    margin-top: 2em;
+    width: 60vw;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-right: 1px solid #fff;
+}
+
+#competences{
+    margin: 0 5vw;
+}
+
+.containerSoft{
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.skills{
+    display: flex;
+}

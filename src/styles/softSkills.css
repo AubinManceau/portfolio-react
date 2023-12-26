@@ -1,0 +1,17 @@
+.containerSoft li{
+    list-style-type: square;
+    color: #FAC91D;
+    font-size: 1.5em;
+    margin: 2em 0;
+  }
+
+  .containerSoft p{
+    list-style-type: square;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    margin-left: 1em;
+    font-size: 22px;
+    font-weight: 300;
+  }
