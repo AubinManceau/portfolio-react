@@ -10,7 +10,7 @@
   }
   
   div[role="progressbar"] {
-    --size: 5rem;
+    --size: 5vw;
     --fg: #FAC91D;
     --bg: #fff;
     --pgPercentage: var(--value);
@@ -37,9 +37,9 @@
 .contentProgressBar{
     display: flex;
     align-items: center;
-    gap: 1.5em;
-    margin-top: 2em;
+    gap: 0 1.5vw;
     width: 50%;
+    height: 20%;
   }
 
   .contentProgressBar p{
@@ -47,7 +47,7 @@
     color: white;
     text-transform: uppercase;
     margin: 0;
-    font-size: 22px;
+    font-size: 1.4vw;
     font-weight: 300;
   }
 

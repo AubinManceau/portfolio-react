@@ -1,0 +1,11 @@
+#projets{
+    height: 90vh;
+    padding-top: 10vh;
+    margin: 0 5vw;
+}
+
+.navProjects{
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+}

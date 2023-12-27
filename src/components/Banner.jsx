@@ -17,7 +17,7 @@ function Banner(){
             <Navbar />
             <div className="hero">
                 <h1><span className="jaune">JE M'APPELLE</span> AUBIN MANCEAU <br /><span className="jaune">ET JE SUIS </span>ETUDIANT / DÉVELOPPEUR JUNIOR.</h1>
-                <p>J'ai 19 ans et je suis en deuxième année de bachelor en développement web à MyDigitalSchool Angers. Actuellement, je recherche un stage de 40 jours débutant le 25 mars 2024, tout en étant à la recherche d'une alternance pour la rentrée 2024 !</p>
+                <p>J'ai 19 ans et je suis en deuxième année de bachelor en développement web à MyDigitalSchool Angers. Actuellement, je recherche une alternance pour la rentrée 2024 !</p>
                 <div className="buttons">
                     <Button name="Projets" link="#projets" />
                     <Button name="Contact" link="#contact" />

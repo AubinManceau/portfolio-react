@@ -1,8 +1,18 @@
-nav{
+nav.navHeader{
     display: flex;
     justify-content: space-between;
     padding: 0 4vw;
     height: 10vh;
+    position: fixed;
+    top: 0;
+    width: calc(100% - 8vw);
+    background-color: rgba(2, 48, 71, 0);
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+.navHeader.scrolled {
+    background-color: rgba(2, 48, 71, 1); 
 }
 
 nav .nav-name{
@@ -17,20 +27,22 @@ nav .nav-name ul{
     list-style: none;
 }
 
-nav .nav-name a{
+nav .nav-name li{
     text-decoration: none;
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2vw;
+    cursor: pointer;
 }
 
-nav .nav-logo a{
+nav .nav-logo{
     font-family: 'Oswald', sans-serif;
     color: white;
     text-transform: uppercase;
     text-decoration: none;
     margin: 0;
     font-size: 1.8vw;
+    cursor: pointer;
 }
 
 nav .nav-logo{

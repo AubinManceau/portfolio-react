@@ -1,15 +1,18 @@
 .containerSkills{
-    margin-top: 2em;
     width: 60vw;
     list-style: none;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    border-right: 1px solid #fff;
+    border-right: 0.1vw solid #fff;
+    margin: 0;
+    gap: 0;
 }
 
 #competences{
     margin: 0 5vw;
+    height: 90vh;
+    padding-top: 10vh;
 }
 
 .containerSoft{

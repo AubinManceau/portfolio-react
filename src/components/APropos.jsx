@@ -5,7 +5,7 @@ import Button from './Button'
 
 function APropos(){
     return (
-        <div className='apropos'id='apropos'>
+        <div className='apropos'id='apropos' >
             <img src={aboutimg} alt={aboutimg} />
             <div className="content">
                 <Title name="A Propos" />
@@ -16,7 +16,7 @@ function APropos(){
 
                     <p>Un des grands objectifs de ma vie serait d'explorer de nouvelles cultures et de voyager. Des paysages à la culture, la diversité du monde me fascine.</p>
                 </div>
-                <Button name="Télécharger mon CV" link="" />
+                <Button name="Télécharger mon CV" link=""/>
             </div>
         </div>
     )

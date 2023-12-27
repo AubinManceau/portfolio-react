@@ -1,0 +1,22 @@
+.navProjects ul.container-projects{
+    display: flex;
+    justify-content: end;
+    gap: 2.5vw;
+    list-style: none;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    padding: 0;
+}
+
+.navProjects ul.container-projects li a.active{
+    color: #FAC91D;
+}
+
+.navProjects ul.container-projects a{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1vw;
+    cursor: pointer;
+    padding: 0.2vw;
+    text-decoration: none;
+}
