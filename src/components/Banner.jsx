@@ -19,8 +19,8 @@ function Banner(){
                 <h1><span className="jaune">JE M'APPELLE</span> AUBIN MANCEAU <br /><span className="jaune">ET JE SUIS </span>ETUDIANT / DÉVELOPPEUR JUNIOR.</h1>
                 <p>J'ai 19 ans et je suis en deuxième année de bachelor en développement web à MyDigitalSchool Angers. Actuellement, je recherche une alternance pour la rentrée 2024 !</p>
                 <div className="buttons">
-                    <Button name="Projets" link="#projets" />
-                    <Button name="Contact" link="#contact" />
+                    <Button name="Projets" link="#projets" blank={false}/>
+                    <Button name="Contact" link="#contact" blank={false}/>
                 </div>
                 <div className="mousedown">
                     <img src={mousedown} alt={mousedown} onClick={ScrollDown} />

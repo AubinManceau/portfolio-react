@@ -9,3 +9,14 @@
     display: flex;
     justify-content: center;
 }
+
+.navEtProjets{
+    display: flex;
+}
+
+.imgProjets{
+    width: 60vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em 2em;
+}

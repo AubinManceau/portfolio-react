@@ -1,0 +1,9 @@
+figure.caseProjects img{
+    width: 18vw;
+    border-radius: 10px;
+}
+
+figure.caseProjects{
+    width: 18vw;
+    margin: 0;
+}
