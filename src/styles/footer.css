@@ -7,13 +7,14 @@ footer{
     padding: 0 5vw;
 }
 
-footer .footer-logo a{
+footer .footer-logo p{
     font-family: 'Oswald', sans-serif;
     color: white;
     text-transform: uppercase;
     text-decoration: none;
     margin: 0;
     font-size: 1.8vw;
+    cursor: pointer;
 }
 
 footer .footer-logo{

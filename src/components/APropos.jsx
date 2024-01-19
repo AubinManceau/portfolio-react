@@ -16,7 +16,7 @@ function APropos(){
 
                     <p>Un des grands objectifs de ma vie serait d'explorer de nouvelles cultures et de voyager. Des paysages à la culture, la diversité du monde me fascine.</p>
                 </div>
-                <Button name="Télécharger mon CV" link="" blank={true}/>
+                <Button name="Télécharger mon CV" link="https://drive.google.com/file/d/1VzMbPEQN4a8n9cPzpU60MO3UAEeTQmBv/view?usp=drive_link" blank={true}/>
             </div>
         </div>
     )

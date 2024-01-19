@@ -1,5 +1,136 @@
 #contact{
-    margin: 0 5vw;
     height: 90vh;
     padding-top: 10vh;
+}
+
+.title{
+    margin-left: 5vw;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form{
+    margin-left: 5vw;
+    width: 45vw;
+}
+
+.form p{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    margin-bottom: 4vh;
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh 0;
+}
+
+.form .names{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form .names input{
+    width: 47%;
+}
+
+input{
+    outline: none;
+    border: none;
+    height: 5vh;
+    border-radius: 5vh;
+    padding-left: 1vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+textarea{
+    outline: none;
+    border: none;
+    resize: none;
+    height: 30vh;
+    padding: 2vh .5vw;
+    border-radius: 3vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form .button{
+    display: flex;
+}
+
+.form .button input{
+    cursor: pointer;
+    color: white;
+    font-size: 1vw;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: .9vh 1.5vw;
+    background-color: #FAC91D;
+    border-radius: calc(2vw / 2);
+    text-decoration: none;
+    filter: drop-shadow(0 0 25px rgba(250, 201, 29, 0.25));
+}
+
+.infos{
+    width: 35vw;
+    background-color: #FAC91E;
+    padding: 4vh 2vw;
+    border-radius: 4vh 0 0 4vh;
+}
+
+.infos h3{
+    color: #023047;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 0;
+}
+
+.info p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 1.8em 0 .6em 0;
+}
+
+.info a{
+    color: #023047;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 0;
+    text-decoration: none;
+}
+
+figure.iconFooter{
+    display: flex;
+    margin: 0;
+    gap: 1em;
+}
+
+figure.iconFooter a img{
+    width: 3vw;
+    vertical-align: middle;
+}
+
+figure.iconFooter a{
+    background-color: #023047;
+    padding: .5vw;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.error-message {
+    color: #ff0000; 
+}
+  
+.success-message {
+    color: #FAC91D; 
 }
